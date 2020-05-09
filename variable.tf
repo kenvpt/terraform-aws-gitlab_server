@@ -14,3 +14,5 @@ variable "tags"{
 }
 
 variable "private_key_path"{}
+variable "bucket_name"{}
+variable "bucket_region"{}
