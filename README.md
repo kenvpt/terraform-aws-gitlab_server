@@ -17,7 +17,9 @@ module "gitlab" {
     tags = {
      Environment = "Gitlab"
     }
-    private_key_path = "~/.ssh/id_rsa"  
+    private_key_path = "~/.ssh/id_rsa" 
+    bucket_name =  "your s3 bucket name"
+    bucket_region = "us-east-1"
 }
 
 
