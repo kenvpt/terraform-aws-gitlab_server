@@ -1,5 +1,5 @@
 module "gitlab" {
-    source = "/home/centos/terraform-aws-gitlab/gitlab_project"
+    source = "./gitlab_project"
     region = "us-west-1"
     vpc_cidr = "192.168.0.0/16"
     public_subnet_cidr = [
