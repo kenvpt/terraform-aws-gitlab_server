@@ -1,7 +1,5 @@
 # terraform-aws-gitlab_server
 module "gitlab" {
-
-    source = "/home/centos/terraform-aws-gitlab/gitlab_project"
     
     region = "us-west-1"
     
