@@ -22,7 +22,7 @@ module "gitlab" {
     private_key_path = "~/.ssh/id_rsa"  
 }
 
-module "gitlab" {
+module "gitlab2" {
     source = "./gitlab_project"
     region = "us-east-2"
     vpc_cidr = "192.168.0.0/16"
