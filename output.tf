@@ -16,9 +16,6 @@ output "private_subnets" {
     ]
 
 }
-output "route_53" {
-    value = "${aws_route53_record.kenvpt.name}"
-}
 output "internet_gateway" {
     value = "${aws_internet_gateway.my_internet_gateway.id}"
 }
